@@ -26,7 +26,6 @@ monitors:
 
   - id: dp-files # unique identifier
     name: File Server
-    description: 'Official Website of dplayz Games' # default=empty
     url: 'https://files.dplayzgames06.tk/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -40,13 +39,4 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false
-
-  - id: dp-workstation # unique identifier
-    name: Workstation Service
-    url: 'https://workstation.dplayzgames06.tk/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-
 
