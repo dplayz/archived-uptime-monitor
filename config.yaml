@@ -40,3 +40,10 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false
 
+  - id: dp-code-server-container
+    name: Private Code Server Instance
+    url: 'https://code-server.dplayzgames06.tk' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: false
